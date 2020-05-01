@@ -193,7 +193,7 @@
 	--aspect-ratio: 32/17;
 	font-size: 1.25rem;
 	font-family: ivymode, sans-serif;
-	--size-title: 15vw;
+  --size-title: 15vw;
 }
 .page {
 	display: grid;
@@ -236,7 +236,7 @@
 	max-width: 100%;
 	position: relative;
 	will-change: transform;
-	margin-bottom: 30vh;
+	margin-bottom: 40vh;
 	display: grid;
 	grid-template-columns: 50% 50%;
 }
@@ -281,7 +281,7 @@
 
 .content__item-imgwrap {
 	position: relative;
-	--imgwidth: 100%;
+	--imgwidth: 90%;
 	margin: 0 auto;
 	grid-area: 1 / 1 / 3 / 3;
 	overflow: hidden;
@@ -352,7 +352,13 @@
 	font-weight: var(--font-weight-title);
 	color: var(--color-title);
 	will-change: transform;
-	mix-blend-mode: var(--blendmode-title);
+  mix-blend-mode: var(--blendmode-title);
+  font-size: 4em;
+}
+@media(max-width :500px){
+  .content__item-title {
+    font-size: 2em;
+  }
 }
 
 .content--center .content__item-title {
@@ -369,7 +375,7 @@
 }
 
 .content__item-description {
-	grid-area: 3 / 1 / 3 / 3;
+	grid-area: 2 / 1 / 2 / 2;
 	width: 70%;
 	position: relative;
 	margin: 0;
@@ -405,14 +411,14 @@
 	text-align: right;
 }
 
-.content__item-deco {
+/* .content__item-deco {
 	position: absolute;
 	top: 2rem;
 	left: 10vw;
 	height: 30%;
 	width: 1px;
 	background: #d79612;
-}
+} */
 
 .content__item-decobar {
 	width: 140%;
@@ -473,18 +479,33 @@
 }
 
 .img-1{
-  background-image: url(../images/TrampolinePark.JPG);
+  background-image: url(../images/trampoline\ park01.JPG);
 }
 .img-2{
-  background-image: url(../images/Bowling.JPG);
+  background-image: url(../images/bowling02.JPG);
 }
 .img-3{
-  background-image: url(../images/arcade\ games.jpg);
+  background-image: url(../images/arcade03.JPG);
 }
 .img-4{
-  background-image: url(../images/Shooting.JPG);
+  background-image: url(../images/virtual\ reality04.jpg);
 }
 .img-5{
-  background-image: url(../images/WARBOTZ.jpg);
+  background-image: url(../images/wall\ calmbing\ 05.jpg);
+}
+.img-6{
+  background-image: url(../images/laser-tag06.png);
+}
+.img-7{
+  background-image: url(../images/WARBOTZ07.jpg);
+}
+.img-8{
+  background-image: url(../images/laser\ spy\ 08.jpg);
+}
+.img-9{
+  background-image: url(../images/shooting\ 09.JPG);
+}
+.img-10{
+  background-image: url(../images/turf\ 10.jpg);
 }
 /* end scroling  */
